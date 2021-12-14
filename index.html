@@ -5,13 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-<h1> Odin Recipes</h1>
-<a href="recipes/fchicken.html">Honey Fried Chicken</a>
-<a href="recipes/gcheese.html">Classic Grilled Cheese</a>
-<a href="recipes/acake.html">Angel Food Cake Dessert</a>
+<link rel="stylesheet" href="style.css" />
 
-<h2>Please enjoy!</h2>
+<link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+</head>
+
+<body>
+
+<div class = 'splash-header'>
+    <div class = 'left-header'>
+        <ul>
+            <li><span class="material-icons">menu</span></li>
+            <li><img class = 'header-logo' src='images/briosos-recipes.png'></li>
+        </ul>
+    </div>
+
+    <div class = 'Searchbar'>
+        <input type = 'text' placeholder='Find a Recipe'>
+        <button type = 'submit'>Search</button>
+    </div>
+
+    <div class = 'right-header'>
+        <ul>
+            <li><span class="material-icons">account_circle</span></li>
+            <li><span class="material-icons">notifications</span></li>
+        </ul>
+    </div>
+</div>    
+<div class = 'secondblock'>
+    <div class = 'categoryTypes'>
+        <div class = 'icon-info'>
+            <img class = 'logo' src='images/quickneasy.jpg'>
+                <p>Quick and Easy Recipes</p>
+        </div>
+        <div class = 'icon-info'>
+            <img class = 'logo' src='images/pierecipe.jpg'>
+                <p>Pie Recipes</p>
+        </div>
+        <div class = 'icon-info'>
+            <img class = 'logo' src='images/appetizers.webp'>
+                <p>Appetizers and Snacks</p>
+        </div>
+        <div class = 'icon-info'>
+            <img class = 'logo' src='images/breakfast.jpeg'>
+            <p>Breakfast</p>
+        </div>
+        <div class = 'icon-info'>
+            <img class = 'logo' src='images/dinnerrecipe.webp'>
+                <p>Dinner Recipes</p>
+        </div>
+        <div class = 'icon-info'>
+            <img class = 'logo' src='images/chickenrecipe.jpeg'>
+                <p>Chicken Recipe</p>
+        </div>
+        <div class = 'icon-info'>
+            <img class = 'logo' src='images/festive.jpeg'>
+                <p>Festive Recipe</p>
+        </div>
+    </div>
+</div>
+
+<!-- Odin Recipe List  -->
+<h1 class="title"> Popular Odin Recipes</h1>
+<h5 class = 'title'> Curated by Ryan Briosos</h5>
+
+<!--space inbetween pic & links-->
+<p> </p>
+
+<div class = 'curatedOptions'>
+    <ul>
+        <li><a class ="enlarge" href="recipes/fchicken.html"><img class = 'curatedPic' src='images/fchicken.jpg'><h4>Honey Fried Chicken</h4></a>
+
+        <li><a class ="enlarge" href="recipes/gcheese.html"><img class = 'curatedPic' src='images/gcheese.webp'><h4>Grilled Cheese</h4></a></li>
+
+        <li><a class ="enlarge" href="recipes/acake.html"><img class = 'curatedPic' src='images/acake.jpg'><h4>Angel Cake</h4></a></li>
+    </ul>
+</div>
+<!-- Maybe add in a footer later? -->
+
 </body>
 </html>

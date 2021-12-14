@@ -1,0 +1,125 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin:0 200px;
+}
+/* Index page */
+.splash-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul,li{
+display:flex;
+align-items: center;
+margin:0;
+padding:5px 8px 8px 8px;
+}
+
+.material-icons{
+    width: 70px;
+    height:70px;
+
+}
+/* Search bar */
+input{
+border-radius: 20px;
+    width: 700px;
+    height:30px;
+}
+/* left header */
+.header-logo{
+    height:90px;
+    width:90px;
+
+}
+/* Second block */
+.secondblock{
+    display:flex;
+ justify-content: center;
+    align-items: center;
+    gap:100px;
+    margin:20px;
+    padding:0 100px;
+
+}
+.categoryTypes{
+    display:flex;
+    gap:12px;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+p{
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Icons next to search bar */
+.logo{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+}
+.icon-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+}
+/* Other pages */
+.title{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+
+}
+/* Curated Recipes */
+.curatedOptions{
+    display:flex;
+    justify-content: center;
+}
+.curatedPic{
+    height:800px;
+    width:600px;
+  
+}
+     /*       Recipes       */
+
+/* Left Block */
+.headerContent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headerContent p {
+    width:55%;
+    font-size: 20px;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+.container{
+    display:flex;
+    margin:16px;
+
+}
+
+.description{
+display:flex;
+flex-direction: column;
+
+}
+
+
+/* Footer */
+.return {
+    display:flex;
+    justify-content: center;
+
+}
